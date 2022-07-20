@@ -42,7 +42,7 @@ The above code (3 and 4), along with the `href` part of (1), relies on the `name
 ## Making clickable links
 To make text clickable, we use the code below. First we set the color of the text (can be easily changed as discussed above in the color section). Next we use `href="website"`—copy the link in place of the placeholder `website`. Adding `target="_blank"` means that the link will open in a new tab, not the one that is displaying the website. The color, link, and target specifications all go together in the first `<a >`, followed by the text that we want to be clickable (in this case "Chapter as PDF"), followed by `</a>` to close out the code.
 
-Example code:
+Example code: \
 `<a style="color: #E66100" href="https://github.com/SantaFeInstitute/ABMA/blob/master/book/ABMA_Conclusion.pdf" target="_blank"> Chapter as PDF </a>`  
 
 ## Clickable images
@@ -50,13 +50,13 @@ Making a clickable image is very similar to making a clickable link, except now 
 
 The first code included in `< >` is identical to the code in the section above ("Making clickable links"), where we placed our link and specified that it will open in a new tab. Next we need to identify our image source, which in this case is a url (we did this by adding the images to their own pages in Squarespace); the image source needs "https://" in order to show up (if it is coded based on an image's presence on a specific computer, that would be dangerous because the picture could be deleted and I also couldn't figure out how to do that). `align` specifies left, right, or center alignment of the image, and after `style` we include margin size as well as width and height of the image (easily adjustable). In `alt` we provide alternate text that will show up if the image does not. Finally, we close our code with `</a>`.
 
-Example code:
+Example code: \
 `<a href="https://www.sfipress.org/books/agent-based-modeling-archaeology" target="_blank"> <img src="https://images.squarespace-cdn.com/content/v1/5d420e5d999d0200013d33c3/1624392531622-KBOK27QOQTS8OP5R2JSG/ABMA_cover_web-600.png?format=1000w" align = "left" style="margin: 0px 20px 0px 0px; width:300px;height:400px;" alt="Textbook Cover"> </a>`
 
 ## Expandable lists (dropdowns)
 
 
-Example code:
+Example code: \
 `<details>` \
 `<summary>` \
 Click here to expand the list of external resources. \
