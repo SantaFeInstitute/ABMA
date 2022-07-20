@@ -21,7 +21,7 @@ To change the text color, you need to change the html color hexcode; the current
 
 To add a background color behind the text, add in `style="background-color: #000000"` (in this instance the zeros will make the background color black). The complete code with a background color added would look like this:` <p style="background-color: #000000" style="color: #000000">`. 
 
-Change the text by changing the text of "Agent-Based Modeling for Archaeology" in the following section: `<Agent-Based Modeling for Archaeology</p>`, which looks like this in the full formatting: \
+Change the text by changing the text of "Agent-Based Modeling for Archaeology" in the following section: `<Agent-Based Modeling for Archaeology</p>`, which appears here in the full formatting: \
         `<h1>` \
           `<p style="color: #000000">Agent-Based Modeling for Archaeology</p>` \
         `</h1>` 
