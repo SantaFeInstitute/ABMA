@@ -12,7 +12,7 @@ These is a website maintenance guide for the Agent-Based Modeling for Archaeolog
 
 **HTML vs. Markdown:** It is very important to note that all of the code is written in HTML but in a Markdown document (`index.md`). If the code is copy-pasted as is and put into an HTML document (`index.html`), it breaks the website formatting and leaves lines of text with pictures in a disorganized manner. If the code is rearranged into purely HTML, it will need to look something like the formatting of `default.html`. **All code** needs to be written in HTML to render properly on the website (using Markdown language gives the proper result in the preview of the specific file but does not translate correctly when the website is published - all of the spacing, placement, and general organization is off and looks absolutely terrible).
 
-## Major theme information
+## Theme information
 The website uses the Jekyll theme "Minimal", which is called in `theme: jekyll-theme-minimal` (found in `ABMA/config.yml`). Using `logo:` creates the picture in the sidebar. Using `show_downloads: false` prevents any GitHub, ZIP File, or TAR Ball download options that might show up in the sidebar do not actually show up (saving space to include all of the chapter headings in the sidebar).
 
 ## How to change/edit the website files
