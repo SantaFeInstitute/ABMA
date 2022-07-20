@@ -15,7 +15,13 @@ To change a specific file, click on the file name (the farthest left text of the
 To make changes to the static sidebar on the left-hand side of the website, stay in the `ABMA` section, go to the layouts folder `_layouts`, and select the `default.html` document. In order to make and save changes to the sidebar, you will need to click on `default.html` and then the pencil icon in the upper right-hand corner of the light gray bar above the html text. Any changes that you make will need to be saved by clicking on the green "Commit changes" button at the bottom of the page (leave the button next to "Commit directly to the `gh-pages` branch." selected). 
 
 ## Changing text color, background color, and text
-The following code changes the text and color of the header at the top of the left sidebar. The html color hexcode `"#000000"` makes the text black. To add a background color behind the text, add in `style="background-color: #000000"` (in this instance the zeros will make the background color black. The complete code with a background color added would look like this:` <p style="background-color: #000000" style="color: #000000">`. Change the text by changing the text of "Agent-Based Modeling for Archaeology" in the following section: `<Agent-Based Modeling for Archaeology</p>`. \
+The following code changes the text and color of the header at the top of the left sidebar. 
+
+To change the text color, you need to change the html color hexcode; the current hexcode in use (`"#000000"`) makes the text black. You can search Google to find lists of different hexcodes that correspond to pretty much every color in existence. 
+
+To add a background color behind the text, add in `style="background-color: #000000"` (in this instance the zeros will make the background color black). The complete code with a background color added would look like this:` <p style="background-color: #000000" style="color: #000000">`. 
+
+Change the text by changing the text of "Agent-Based Modeling for Archaeology" in the following section: `<Agent-Based Modeling for Archaeology</p>`, which looks like this in the full formatting: \
         `<h1>` \
           `<p style="color: #000000">Agent-Based Modeling for Archaeology</p>` \
         `</h1>` 
