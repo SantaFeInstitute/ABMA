@@ -1,19 +1,19 @@
 # ABMA Website 
 These are website maintenance instructions for the Agent-Based Modeling for Archaeology website.
 
-## An overview
-The website theme code is accessed through `ABMA/config.yml`. Here we have used the Jekyll theme "Minimal", which is called in `theme: jekyll-theme-minimal`. The title of the of the website (that appears in the main section, not the left sidebar) is called in `title: Agent-Based Modeling for Archaeology`. We use `logo:` to create the picture in the sidebar. We use `show_downloads: false` so that any GitHub, ZIP File, or TAR Ball downloads that might show up do not actually show up (we needed to save space to have all of the chapter headings in the sidebar). **All code** needs to be written in HTML to render properly on the website (using Markdown language gives the proper result in the preview of the specific file but does not translate correctly when the website is published - all of the spacing, placement, and general organization is off and looks absolutely terrible).
-
 ## Where to find code
-`_layouts` (folder) --> `default.html` (file): code for the sidebar 
+`_layouts` (folder) --> `default.html` (file): code for the sidebar (including sidebar title)
 
 `README.md` (file): where all of this information is written!
 
-`_config.yml` (file): code for the theme, title of the page, and sidebar image
+`_config.yml` (file): code for the theme, main title of the page, and sidebar image
 
 `index.md` (file): code for the main section of the website (everything but the sidebar)
 
-**HTML vs. Markdown:** It is very important to note that all of the code is written in HTML but in a Markdown document (`index.md`). If the code is copy-pasted as is and put into an HTML document (`index.html`), it breaks the website formatting and leaves lines of text with pictures in a disorganized manner. If the code is rearranged into purely HTML, it will need to look something like the formatting of `default.html`.
+**HTML vs. Markdown:** It is very important to note that all of the code is written in HTML but in a Markdown document (`index.md`). If the code is copy-pasted as is and put into an HTML document (`index.html`), it breaks the website formatting and leaves lines of text with pictures in a disorganized manner. If the code is rearranged into purely HTML, it will need to look something like the formatting of `default.html`. **All code** needs to be written in HTML to render properly on the website (using Markdown language gives the proper result in the preview of the specific file but does not translate correctly when the website is published - all of the spacing, placement, and general organization is off and looks absolutely terrible).
+
+## Major theme information
+The website uses the Jekyll theme "Minimal", which is called in `theme: jekyll-theme-minimal` (found in `ABMA/config.yml`). Using `logo:` creates the picture in the sidebar. Using `show_downloads: false` prevents any GitHub, ZIP File, or TAR Ball download options that might show up in the sidebar do not actually show up (saving space to include all of the chapter headings in the sidebar).
 
 ## How to change/edit the website files
 To make changes to the website, navigate through `SantaFeInstitute` --> `ABMA` and select `gh-pages` from the **master** dropdown above the individual chapter folders. (If you are here, you have already done that. Congratulations!)
