@@ -1,5 +1,5 @@
 # ABMA Website 
-These are website maintenance instructions for the Agent-Based Modeling for Archaeology website.
+These is a website maintenance guide for the Agent-Based Modeling for Archaeology website, created by Press Assistant Bronwynn Woodsworth in 2021.
 
 ## Where to find code
 `_layouts` (folder) --> `default.html` (file): code for the sidebar (including sidebar title)
