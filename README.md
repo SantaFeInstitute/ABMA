@@ -32,7 +32,7 @@ The anchors on the sidebar are put in place with the following code:
 (1)      `<a style="color: #E66100" href="#INTRODUCTION">Ch. 0 • Introduction</a>` \
 (2)      `<a href="path/to/contributing/index.md#INTRODUCTION">`
       
-The text "Ch. 0 • Introduction" in `>Ch. 0 • Introduction</a>` will appear in the sidebar as a clickable link. The `href="path/to/contributing/index.md#INTRODUCTION">` is the code that makes the anchor work. This references the following code in the `index.md` (the section that contains the body of the website) where we named the introductory section:
+The text "Ch. 0 • Introduction" in `>Ch. 0 • Introduction</a>` will appear in the sidebar as a clickable link. The `href="path/to/contributing/index.md#INTRODUCTION">` is the code that makes the anchor work (directing the click to the "INTRODUCTION" section). This references the following code in the `index.md` (the section that contains the body of the website) where we named the introductory section:
   
 (3)      `<a name="INTRODUCTION"></a>` \
 (4)      `### INTRODUCTION: The Art & Science of Building Societies in Silico`
