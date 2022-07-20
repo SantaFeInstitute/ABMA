@@ -6,7 +6,7 @@ The website theme code is accessed through `ABMA/config.yml`. Here we have used 
 
 **HTML vs. Markdown:** It is very important to note that all of the code is written in HTML but in a Markdown document (`index.md`). If the code is copy-pasted as is and put into an HTML document (`index.html`), it breaks the website formatting and leaves lines of text with pictures in a disorganized manner. If the code is rearranged into purely HTML, it will need to look something like the formatting of `default.html`.
 
-## How to change the website
+## How to change/edit the website files
 To make changes to the website, navigate through `SantaFeInstitute` --> `ABMA` and select `gh-pages` from the **master** dropdown above the individual chapter folders. (If you are here, you have already done that. Congratulations!)
 
 To change a specific file, click on the file name (the farthest left text of the three columns, for example `_config.yml`). When you hover your cursor over the title, it will turn blue to signify that it is clickable. The text in the middle column, that will say something like "Update README.md", tells you the last thing that happened to the file; in this example case, it means that the `README.md` was updated however long ago is shown in the right column (ex. "3 months ago"). You have the option to change the text in the middle column to more specifically reflect what happened to the file by altering the text at the bottom of the page (when you are editing the file) in the "Commit changes" box that has one short gray text box and one longer gray text box; the first box will say "Update README.md" because that is the default text that appears when any file is updated (with whatever shows up in the `README.md` space differing depending on the file name/type), and you can highlight that text and replace it with whatever you choose (for example, "updated figures", "updated sidebar Ch. 10 title", etc.).
@@ -38,4 +38,31 @@ The text "Ch. 0 • Introduction" in `>Ch. 0 • Introduction</a>` will appear i
 (4)      `### INTRODUCTION: The Art & Science of Building Societies in Silico`
 
 The above code (3 and 4), along with the `href` part of (1), relies on the `name="INTRODUCTION">` being *above* the actual Introduction title in order for the anchor to redirect to the title. If `name="INTRODUCTION">` were located underneath the actual Introduction title, the anchor redirection would omit the title and direct the readers straight to the chapter description. 
-  
+
+## Making clickable links
+To make text clickable, we use the code below. First we set the color of the text (can be easily changed as discussed above in the color section). Next we use `href="website"`—copy the link in place of the placeholder `website`. Adding `target="_blank"` means that the link will open in a new tab, not the one that is displaying the website. The color, link, and target specifications all go together in the first `<a >`, followed by the text that we want to be clickable (in this case "Chapter as PDF"), followed by `</a>` to close out the code.
+
+`<a style="color: #E66100" href="https://github.com/SantaFeInstitute/ABMA/blob/master/book/ABMA_Conclusion.pdf" target="_blank"> Chapter as PDF </a>`  
+
+
+
+## Clickable images
+
+
+`<a href="https://www.sfipress.org/books/agent-based-modeling-archaeology" target="_blank"> <img src="https://images.squarespace-cdn.com/content/v1/5d420e5d999d0200013d33c3/1624392531622-KBOK27QOQTS8OP5R2JSG/ABMA_cover_web-600.png?format=1000w" align = "left" style="margin: 0px 20px 0px 0px; width:300px;height:400px;" alt="Textbook Cover"> </a>`
+
+## Expandable lists (dropdowns)
+
+
+`<details>
+<summary>
+Click here to expand the list of external resources.
+</summary>
+ <br>
+ <ol>
+  <li> <a style="color: #E66100" href="https://ccl.northwestern.edu/netlogo/download.shtml" target="_blank"> NetLogo </a> </li>
+  This textbook uses NetLogo, a multiagent programmable modeling environment created by Uri Wilensky and developed at Northwestern's Center for Connected Learning and Computer-Based Modeling (CCL). Click the "NetLogo" link to download NetLogo.
+  </ol>
+</details>`
+
+
