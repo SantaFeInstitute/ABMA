@@ -54,15 +54,15 @@ To make text clickable, we use the code below. First we set the color of the tex
 ## Expandable lists (dropdowns)
 
 
-`<details>
-<summary>
+`<details>`
+`<summary>`
 Click here to expand the list of external resources.
-</summary>
- <br>
- <ol>
-  <li> <a style="color: #E66100" href="https://ccl.northwestern.edu/netlogo/download.shtml" target="_blank"> NetLogo </a> </li>
+`</summary>`
+ `<br>`
+ `<ol>`
+ ` <li> <a style="color: #E66100" href="https://ccl.northwestern.edu/netlogo/download.shtml" target="_blank"> NetLogo </a> </li>`
   This textbook uses NetLogo, a multiagent programmable modeling environment created by Uri Wilensky and developed at Northwestern's Center for Connected Learning and Computer-Based Modeling (CCL). Click the "NetLogo" link to download NetLogo.
-  </ol>
-</details>`
+  `</ol>`
+`</details>`
 
 
