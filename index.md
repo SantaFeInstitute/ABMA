@@ -140,7 +140,7 @@ Click here to expand the list of external resources.
 <a name="Bibliography"></a>
 ## <span style="color:	#36454F"> Bibliography </span>
 
-<a style="color: #E66100" href="https://santafe.box.com/s/fw0za339o039c1bl8364maclea6wuk4c" target="_blank"> Bibliography as PDF </a>     <a style="color: #E66100" href="https://www.zotero.org/groups/2296954/abma_textbook/library" target="_blank"> Web Bibliography (Zotero) </a>
+<a style="color: #E66100" href="https://github.com/SantaFeInstitute/ABMA/blob/master/book/ABMA_Bibliography.pdf" target="_blank"> Bibliography as PDF </a>     <a style="color: #E66100" href="https://www.zotero.org/groups/2296954/abma_textbook/library" target="_blank"> Web Bibliography (Zotero) </a>
 
 <a name="About the Authors"></a>
 ## <span style="color:	#36454F"> About the Authors </span>
